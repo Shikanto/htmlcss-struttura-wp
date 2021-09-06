@@ -57,3 +57,9 @@ header .container{
     height: calc(100% - 50px - 15px);
     margin: auto 10px;
 }
+
+footer .container{
+    background-color: purple;
+    height: 120px;
+    margin-top: 20px;
+}
