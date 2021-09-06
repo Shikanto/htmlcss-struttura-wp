@@ -1,3 +1,59 @@
-body {
-    color: red
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+header .container{
+    background-color: pink;
+    height: 90px;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+    border: 1px solid;
+}
+
+.first{
+    background-color: yellow;
+    height: calc(90px * 4);
+    margin: 20px auto;
+}
+
+.second{ 
+    background-color: blue;
+    height: calc(90px * 5);
+    padding-bottom: 15px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.small_header{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.float-left{
+    float: left;
+}
+
+.sidebar{
+    width: 100px;
+    height: calc(100% - 50px - 15px);
+}
+
+.center{
+    width: calc(100% - (100px * 2) - 20px);
+    height: calc(100% - 50px - 15px);
+    margin: auto 10px;
 }
