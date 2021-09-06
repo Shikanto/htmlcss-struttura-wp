@@ -23,14 +23,14 @@ header .container{
 
 .first{
     background-color: yellow;
-    height: calc(90px * 4);
+    height: 350px;
     margin: 20px auto;
 }
 
 .second{ 
     background-color: blue;
-    height: calc(90px * 5);
-    padding-bottom: 15px;
+    height: 500px;
+    padding-bottom: 25px;
 }
 
 .lightblue {
@@ -38,7 +38,7 @@ header .container{
 }
 
 .small_header{
-    height: 50px;
+    height: 20%;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -48,14 +48,16 @@ header .container{
 }
 
 .sidebar{
-    width: 100px;
-    height: calc(100% - 50px - 15px);
+    width: 200px;
+    height: 80%;
+    display: inline-block;
 }
 
 .center{
-    width: calc(100% - (100px * 2) - 20px);
-    height: calc(100% - 50px - 15px);
-    margin: auto 10px;
+    width: calc(100% - (200px * 2) - 20px);
+    height: 80%;
+    margin:auto 10px;
+    
 }
 
 footer .container{
