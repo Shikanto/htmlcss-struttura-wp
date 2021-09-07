@@ -20,24 +20,24 @@ header .container{
    /*  border: 1px solid; */
 }
 
-.first{
+.hero-section{
     background-color: yellow;
     height: 350px;
     margin: 20px auto;
 }
 
-.second{ 
+.main-container{ 
     background-color: blue;
-    height: 500px;
-    padding-bottom: 25px;
+    /* height: 500px; per gestire meglio il contenuto non dobbiamo dare un'altezza*/ 
+    padding-bottom: 20px;
 }
 
 .lightblue {
     background-color: lightblue;
 }
 
-.small_header{
-    height: 20%;
+.main-container-header{
+    height: 80px;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -46,16 +46,14 @@ header .container{
     float: left;
 }
 
-.sidebar{
-    width: 200px;
-    height: 80%;
-    display: inline-block;
+.col{
+    width: 20%;
+    height: 300px;
 }
 
-.center{
-    width: calc(100% - (200px * 2) - 20px);
-    height: 80%;
-    margin:auto 10px;
+.col-center{
+    width: calc(100% - 40% - 20px);
+    margin:0 10px;
     
 }
 
